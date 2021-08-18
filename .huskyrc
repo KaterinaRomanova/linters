@@ -1,3 +1,5 @@
 {
-    "hooks":{ "pre-commit": "ng lint"}
+    "hooks":{
+      "pre-commit": "lint-staged --relative"
+      }
 }
