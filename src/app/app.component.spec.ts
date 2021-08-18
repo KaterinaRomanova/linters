@@ -27,7 +27,7 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
     expect(compiled.querySelector('.content span').textContent).toContain(
-      'info-navek-soft app is running!'
+      'info-navek-soft app is running!',
     );
   });
 });
