@@ -11,17 +11,6 @@
     "lint": "ng lint",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "*.{js,ts}": [
-      "ng lint"
-    ],
-    "*.{css,scss}": [
-      "npx stylelint"
-    ],
-    "*.{html}": [
-      "npm run htmlhint"
-    ]
-  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~12.2.1",

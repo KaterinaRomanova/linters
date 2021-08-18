@@ -1,0 +1,11 @@
+{
+  "*.{js,ts}": [
+    "ng lint"
+  ],
+  "*.{css,scss}": [
+    "npx stylelint"
+  ],
+  "*.{html}": [
+    "npm run htmlhint"
+  ]
+}
