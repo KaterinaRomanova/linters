@@ -1,5 +1,5 @@
 {
     "hooks":{
-      "pre-commit": "lint-staged --relative"
+      "pre-commit": "npm run lint"
       }
 }
